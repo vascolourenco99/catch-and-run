@@ -42,6 +42,7 @@ onMounted(() => {
         }
     }
 
+
     const gameLoop = () => {
         draw()
         animationFrameId = requestAnimationFrame(gameLoop)
